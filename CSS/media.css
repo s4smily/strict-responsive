@@ -1,0 +1,36 @@
+@media(max-width: 575px){
+
+    .text{
+
+        width: 70%;
+    }
+
+    .t_content p {
+       
+        width: 80%;
+        
+        line-height: 37px;
+    }
+
+    .icon1 {
+    
+        margin: 30px 0;
+       
+    }
+    .checkbox input {
+        
+        padding: 3px 19px;
+        
+        font-size: 13px;
+        
+    }
+
+    .footerwrapper {
+       
+        padding: 20px 4px 20px 11px;
+      
+    }
+
+    
+}
+
