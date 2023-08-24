@@ -1,4 +1,43 @@
-@media(max-width: 575px){
+@media(max-width:767px){
+
+
+
+    .t_content p {
+       
+        width: 80%;
+        
+        line-height: 37px;
+    }
+
+    .icon1 {
+    
+        margin: 30px 0;
+       
+    }
+    .checkbox input {
+        
+        padding: 3px 19px;
+        
+        font-size: 13px;
+        
+    }
+
+    .footerwrapper {
+       
+        padding: 20px 4px 20px 11px;
+      
+    }
+}
+
+@media(max-width:700px){
+
+    .text{
+
+        width: 70%;
+    }
+}
+
+@media(max-width:575px){
 
     .text{
 
@@ -34,3 +73,28 @@
     
 }
 
+@media(max-width:320px){
+
+    .footericon {
+        margin: auto;
+        justify-content: space-around;
+        padding-right: 20px;
+        margin-top: 10px;
+    }
+
+    .footerwrapper {
+        display: block;
+    }
+
+    .footertext h5 {
+        text-align: center;
+    }
+
+    .text h1 {
+        font-size: 45px;
+    }
+
+    .t_content h1 {
+        font-size: 35px;
+    }
+}
